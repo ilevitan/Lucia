@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="uk-background-secondary uk-light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"> 
+<!-- UIkit CSS -->
+    <link rel="stylesheet" href="./css/uikit.min.css" />
+    <title>Главная</title>
+</head>
+<body>
+    <div class="uk-container uk-margin-large-top">
+        <center>
+               <div class="cat">
+        <div class="ear ear--left"></div>
+        <div class="ear ear--right"></div>
+        <div class="face">
+            <div class="eye eye--left">
+                <div class="eye-pupil"></div>
+            </div>
+            <div class="eye eye--right">
+                <div class="eye-pupil"></div>
+            </div>
+            <div class="muzzle"></div>
+        </div>
+    </div>
+        </center>
+        
+ 
+    </div>
+
+
+    <div class="uk-container">
+
+        <h1 class="uk-heading-large uk-text-center uk-margin-large-bottom uk-margin-large-top">Люсия Тейтельман</h1>
+
+<center class="uk-margin-xlarge-top">
+        <button class="uk-button uk-button-default uk-button-large uk-margin-large-bottom "  uk-toggle="target: #my-id" type="button">Творец</button>
+        <button class="uk-button uk-button-default uk-button-large uk-margin-large-bottom"><a href="art-gallery.html">АРТ-Галерея</a></button>
+        <button class="uk-button uk-button-default uk-button-large uk-margin-large-bottom"><a href="photo-gallery.html">ФОТО-Галерея</a></button>
+        <button class="uk-button uk-button-default uk-button-large uk-margin-large-bottom"  uk-toggle="target: #my-id2" type="button" onClick="play()">Котики</button> 
+</center>
+
+<div style="opacity: 0;">
+    <audio id="audio1" src="/kiskis.mp3"></audio>
+</div>
+
+
+<!-- This is the modal -->
+<div id="my-id" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body  uk-background-secondary uk-light">
+        <h2 class="uk-modal-title ."> <center>Осторожно горячо</center> </h2>
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+
+            <ul class="uk-slideshow-items" uk-height-viewport="min-height: 400" >
+                <li>
+                    <img src="images/lucia/IMG_20210924_213320_123.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/lucia/IMG_20210924_213328_518.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/lucia/IMG_20210924_224327_057.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/lucia/IMG_20210924_224331_802.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/lucia/IMG_20210924_224355_082.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/lucia/IMG_20210924_224400_941.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/lucia/IMG_20210924_224410_477.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/lucia/IMG_20210924_224413_645.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/lucia/IMG_20210924_224417_454.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/lucia/IMG_20210924_224419_057.jpg" alt="" uk-cover>
+                </li>
+               
+            </ul>
+        
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        
+        </div>
+        <center>
+             <button class="uk-modal-close uk-button uk-button-default uk-button-large uk-margin-medium-top " type="button">Закрыть</button>
+ 
+        </center>
+          </div>
+</div>
+<!-- This is the modal -->
+<div id="my-id2" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body  uk-background-secondary uk-light">
+        <h2 class="uk-modal-title .">КИС-КИС КИС-КИС ТЫ КОТИК Я КОТИК, И ЛЮБЛЮ ТЕБЯ ОЧЕНЬ!!!!</h2>
+        <div class='gallery-box'>
+            <div class="gallery-images">
+        
+              <div class='image skewed-straight'>
+              <img src="/images/cats/catlove.jpg" alt="Это мы" class=''>
+              </div>
+        
+              <div class='image skewed-straight'>
+        <img src="/images/cats/catlove2.jpg" alt="Тут тоже мы" class=''>
+              </div>
+        
+        <div class='image skewed-straight'>
+            <div style="padding-top:84.179%;position:relative;"><iframe src="./images/cats/44Wa.gif" width="100%" height="100%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe></div>   </div>  
+        
+        
+              <div class='image skew-left'>
+        <img src="/images/cats/catssleepy.jpg" alt="МЫ" class=''>
+              </div>
+              
+              <div class='image skew-right'>
+              <img src="/images/cats/rats.jpg" alt="МЫЫЫЫ" class=''>
+              </div>
+        
+        
+        
+              <div class='image skew-left'>
+        <img src="/images/cats/unhappy.jpg" alt="Smirking" class=''>
+              </div>
+        
+              <div class='image skew-right'>
+        <img src="/images/cats/cat4.jpg" alt='Rent holding her' class=''>
+              </div>
+        
+              <div class='image skewed-straight'>
+        <img src="/images/cats/cat5.jpg" alt="Pig Mailman 2" class=''>
+              </div>  
+        
+        <div class='image skewed-straight'>
+              <img src="/images/cats/cat6.jpg" alt="Pig Mailman 2" class=''>
+        </div>
+        
+              </div>
+              <section>
+              
+            </section>
+            </div>
+        
+        
+        <div class='gallery-lightbox hidden'>
+          <div class='gallery-lightbox-image'>
+              <img src=''>
+          </div>
+        </div>
+        <center>
+           <button class="uk-modal-close uk-button uk-button-default uk-button-large " type="button"  onClick="stop()">Закрыть</button>
+ 
+        </center>
+            </div>
+</div>
+    </div>
+
+
+
+    <!-- UIkit JS -->
+    <script src="/js/uikit.min.js"></script>
+    <script src="/js/uikit-icons.min.js"></script>
+
+    <script>
+        var lightbox = function(){
+  var images = document.getElementsByClassName('image');
+  var imagesArray = Array.prototype.slice.call(images);
+
+  var $lightbox = document.getElementsByClassName('gallery-lightbox')[0];
+
+  imagesArray.forEach(function(image){
+    console.log(image);
+    image.addEventListener('click', function(e){
+      e.preventDefault();
+      var src = image.childNodes[1].getAttribute('src');
+      $lightbox.childNodes[1].childNodes[1].setAttribute('src', src);
+      $lightbox.classList.remove('hidden');
+    });
+  });
+
+  $lightbox.addEventListener('click', function(e){
+    $lightbox.classList.add('hidden');
+  });
+};
+
+window.addEventListener('load', function(){
+  lightbox();
+});
+    </script>
+
+    <script>    
+    function play() {
+    document.getElementById('audio1').play();
+}
+function stop() {
+    var audio =  document.getElementById('audio1');
+    return audio.paused ? audio.play() : audio.pause();
+}
+    </script>
+</body>
+</html>
